@@ -1,0 +1,16 @@
+.heading {
+    background-image: url(https://api.openverse.engineering/v1/images/6a634461-0bfd-40e3-84f6-c06a42091950/thumb/);
+    padding: 0px 0px;
+    border: 0px;
+    margin: 0px 0px;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: Helvetica;
+    text-align: center;
+    color: white;
+}
+
+.blurb {
+    font-family: Helvetica;
+    text-align: center;
+}
