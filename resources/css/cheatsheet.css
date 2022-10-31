@@ -1,0 +1,46 @@
+body {
+    background-color: darksalmon;
+}
+
+.page_heading {
+    text-align: center;
+    background-color: blanchedalmond;
+    font-size: 70px;
+    font-family: Helvetica;
+}
+
+.sub_heading {
+    text-align: center;
+    background-color: burlywood;
+    font-size: 40px;
+    font-family: Helvetica;
+    margin-bottom: 5px;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 650px;
+    margin: 0 auto;
+}
+
+th {
+    background-color: chocolate;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+td {
+    background-color: lightsalmon;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial;
+}
+
+.code {
+    background-color:antiquewhite;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 18px;
+}

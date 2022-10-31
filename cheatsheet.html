@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./resources/css/cheatsheet.css">
+</head>
+
+<body>
+
+    <h1 class="page_heading">
+        HTML and CSS Table Reference
+    </h1>
+
+    <h2 class="sub_heading">
+        Table Tags
+    </h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Tag</th>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <span class="code">
+                        &lt;table&gt;
+                    </span>
+                </td>
+                <td>
+                    Table
+                </td>
+                <td>
+                    The wrapper element for all HTML tables.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="code">
+                        &lt;thead&gt;
+                    </span>
+                </td>
+                <td>
+                    Table Head
+                </td>
+                <td>
+                    The set of rows defining the column headers in a table.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="code">
+                        &lt;tbody&gt;
+                    </span>
+                </td>
+                <td>
+                    Table Body
+                </td>
+                <td>
+                    The set of rows containing actual table data.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="code">
+                        &lt;tr&gt;
+                    </span>
+                </td>
+                <td>
+                    Table Row
+                </td>
+                <td>
+                    The table row container.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="code">
+                        &lt;td&gt;
+                    </span>
+                </td>
+                <td>
+                    Table Data
+                </td>
+                <td>
+                    The cell container.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="code">
+                        &lt;tfoot&gt;
+                    </span>
+                </td>
+                <td>
+                    Table Foot
+                </td>
+                <td>
+                    The set of rows defining the footer in a table.
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2 class="sub_heading">
+        Table Attributes
+    </h2>
+    <table>
+        <thead>
+            <th>
+                Attribute
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Description
+            </th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <span class="code">
+                        colspan
+                    </span>
+                </td>
+                <td>
+                    Column Span
+                </td>
+                <td>
+                    Defines how many columns a td element should span. Place inside opening td tag.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="code">
+                        rowspan
+                    </span>
+                </td>
+                <td>
+                    Row Span
+                </td>
+                <td>
+                    Defines how many rows a td element should span. Place inside opening td tag.
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2 class="sub_heading">
+        Table Styling
+    </h2>
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    Style
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Description
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <span class="code">
+                        border
+                    </span>
+                </td>
+                <td>
+                    Border
+                </td>
+                <td>
+                    Allows editing of the table border. 
+                    Common attributes entered in this are 'size' (?px), 'style' (solid) and 'color'.
+                    No commas between attributes.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="code">
+                        border-collapse
+                    </span>
+                </td>
+                <td>
+                    Border Collapse
+                </td>
+                <td>
+                    Allows borders around every cell to be collapsed to create a border similar to
+                    what you would see in an Excel spreadsheet. Attribute to attach with this
+                    is 'collapse'.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="code">
+                        width
+                    </span>
+                </td>
+                <td>
+                    Width
+                </td>
+                <td>
+                    Sets the width of the entire table. Commonly set in pixels.
+                    'text-align' can be utilised with this to properly display text in columns
+                    that are potentially much wider than the text itself.
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
