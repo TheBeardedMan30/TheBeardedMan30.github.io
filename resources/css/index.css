@@ -1,3 +1,6 @@
+/* Universal Styles */
+
+/* Header */
 .heading {
     background-image: url(https://api.openverse.engineering/v1/images/6a634461-0bfd-40e3-84f6-c06a42091950/thumb/);
     padding: 0px 0px;
@@ -9,8 +12,17 @@
     text-align: center;
     color: white;
 }
-
 .blurb {
     font-family: Helvetica;
     text-align: center;
 }
+
+/* Navigation */
+
+/* Body */
+
+/* Footer */
+
+/* Update styling - banner is white, footer is black with white text, body is light grey */
+/* Navigation between pages is at bottom of page above footer, but sticky so always displaying.
+    Has breadcrumbs in it, and in the middle is the 'Home' button (see OneNote for image). */
