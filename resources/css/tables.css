@@ -33,6 +33,21 @@ html {
     color: black;
     padding: 0px 10px;
 }
+.breadcrumbs li {
+    display: inline;
+}
+.breadcrumbs li+li::before {
+    color: gray;
+    content: ">";
+}
+.breadcrumbs a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+.breadcrumbs a:visited {
+    color: black;
+}
 
 /* Body */
 table, th, td {
