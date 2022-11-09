@@ -44,6 +44,6 @@ footer {
     padding: 3px 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-/* Update styling - banner is white, footer is black with white text, body is light grey */
-/* Navigation between pages is at bottom of page above footer, but sticky so always displaying.
-    Has breadcrumbs in it, and in the middle is the 'Home' button (see OneNote for image). */
+/* Navigation between pages is at bottom of page above footer, but sticky so always 
+displaying. Has breadcrumbs in it, and in the middle is the 'Home' button 
+(see OneNote for image). */
