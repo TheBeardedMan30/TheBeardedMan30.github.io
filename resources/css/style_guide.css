@@ -6,7 +6,7 @@ html {
 /* Header */
 .heading {
     background-color: rgb(233, 233, 233);
-    padding: 0px 0px;
+    padding: 10px 0px;
     border: 0px;
     margin: 0px 0px;
     font-size: 100px;
@@ -48,6 +48,50 @@ html {
     background-color:whitesmoke;
     padding: 10px 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.colors {
+    background-color: black;
+    color: white;
+    height: 200px;
+    padding: 0px 20px;
+}
+.colors h3 {
+    padding: 10px 0px;
+}
+.color-panel {
+    width: 150px;
+    height: 75px;
+    margin-left: 20px;
+    text-align: center;
+    display: inline-block;
+}
+.white {
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: white;
+}
+.offwhite {
+    background-color: rgb(233, 233, 233);
+    color: black;
+    border-style: solid;
+    border-color: rgb(233, 233, 233);
+}
+.black {
+    background-color: black;
+    border-style: solid;
+    border-color: white;
+}
+.gray {
+    background-color: gray;
+    border-style: solid;
+    border-color: gray;
+}
+.whitesmoke {
+    background-color: whitesmoke;
+    border-style: solid;
+    border-color: whitesmoke;
+    color: black;
 }
 
 /* Footer */
