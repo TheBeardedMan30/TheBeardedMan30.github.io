@@ -52,8 +52,9 @@ html {
 .colors {
     background-color: black;
     color: white;
-    height: 200px;
+    height: auto;
     padding: 0px 20px;
+    padding-bottom: 20px;
 }
 .colors h3 {
     padding: 10px 0px;
@@ -63,7 +64,7 @@ html {
     height: 75px;
     margin-left: 20px;
     text-align: center;
-    display: inline-block;
+    display: inline-flex;
 }
 .white {
     background-color: white;
@@ -96,8 +97,9 @@ html {
 .fonts {
     background-color: white;
     color: black;
-    height: 240px;
+    height: auto;
     padding: 0px 20px;
+    padding-bottom: 20px;
 }
 .fonts h3 {
     padding: 10px 0px;
@@ -114,8 +116,9 @@ html {
 .text_styles {
     background-color: white;
     color: black;
-    height: 650px;
+    height: auto;
     padding: 0px 20px;
+    padding-bottom: 20px;
 }
 .text_styles h3 {
     padding: 10px 0px;
