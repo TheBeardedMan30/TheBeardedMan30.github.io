@@ -93,6 +93,33 @@ html {
     border-color: whitesmoke;
     color: black;
 }
+.fonts {
+    background-color: white;
+    color: black;
+    height: 240px;
+    padding: 0px 20px;
+}
+.fonts h3 {
+    padding: 10px 0px;
+}
+.bold {
+    font-weight: bold;
+}
+.italics {
+    font-style: italic;
+}
+.underline {
+    text-decoration: underline;
+}
+.text_styles {
+    background-color: white;
+    color: black;
+    height: 650px;
+    padding: 0px 20px;
+}
+.text_styles h3 {
+    padding: 10px 0px;
+}
 
 /* Footer */
 footer {
