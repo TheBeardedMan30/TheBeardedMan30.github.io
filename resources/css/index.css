@@ -30,6 +30,7 @@ html {
 .navigation a:hover {
     background-color: rgb(235, 183, 183);
     color: lightslategray;
+    border-radius: 25px;
 }
 
 /* Body */
